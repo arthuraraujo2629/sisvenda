@@ -12,42 +12,42 @@ from tkinter import ttk
 # 1. CORES DE FUNDO E ESTRUTURA GERAL DA TELA
 # -----------------------------------------------------------------------------
 # O que muda: O fundo geral de todas as telas (área cinza claro de fundo da janela)
-BG_APP = "#f8fafc"
+BG_APP = "#1B1D1C"
 
 # O que muda: O fundo dos cartões brancos flutuantes, caixas de formulário e da tabela
-BG_CARD = "#ffffff"
+BG_CARD = "#fefff1"
 
 # O que muda: A cor alternada nas linhas pares da tabela (efeito 'zebra') e cabeçalhos de colunas
-BG_CARD_ALT = "#f1f5f9"
+BG_CARD_ALT = "#ffffff"
 
 
 # -----------------------------------------------------------------------------
 # 2. TOPO (CABEÇALHO) E MENU LATERAL (SIDEBAR)
 # -----------------------------------------------------------------------------
 # O que muda: A barra escura no topo da janela (onde fica o logo 'SISVENDAS' e o botão 'Sair')
-BG_HEADER = "#0f172a"
+BG_HEADER = "#ffffff"
 
 # O que muda: O fundo do menu vertical à esquerda (onde ficam os botões de navegação)
-BG_SIDEBAR = "#1e293b"
+BG_SIDEBAR = "#fbfcfd"
 
 # O que muda: A cor do botão do menu lateral quando você passa o mouse por cima
-BG_SIDEBAR_HOVER = "#334155"
+BG_SIDEBAR_HOVER = "#F0F2F5"
 
 # O que muda: A cor de destaque do botão da aba atualmente aberta/ativa no menu lateral
-BG_SIDEBAR_ACTIVE = "#4f46e5"
+BG_SIDEBAR_ACTIVE = "#f6fcc3"
 
 
 # -----------------------------------------------------------------------------
 # 3. CORES DOS BOTÕES E AÇÕES PRINCIPAIS (CORES DE DESTAQUE)
 # -----------------------------------------------------------------------------
 # O que muda: Botão 'Entrar no Sistema', botão 'Buscar', links e item selecionado na tabela
-PRIMARY = "#4f46e5"            # Cor normal (Indigo / Azul moderno)
-PRIMARY_HOVER = "#4338ca"      # Cor ao passar o mouse por cima
+PRIMARY = "#1B1D1C"            # Cor normal (Indigo / Azul moderno)
+PRIMARY_HOVER = "#1B1D1C"      # Cor ao passar o mouse por cima
 PRIMARY_LIGHT = "#eef2ff"      # Fundo suave do ícone do card de Produtos no Dashboard
 
 # O que muda: Botões de confirmação positiva, como 'Salvar Produto' e 'Cadastrar Usuário'
-SUCCESS = "#059669"            # Cor normal (Verde Esmeralda)
-SUCCESS_HOVER = "#047857"      # Cor ao passar o mouse por cima
+SUCCESS = "#1B1D1C"            # Cor normal (Verde Esmeralda)
+SUCCESS_HOVER = "#1B1D1C"      # Cor ao passar o mouse por cima
 SUCCESS_LIGHT = "#ecfdf5"      # Fundo suave do card de Unidades em Estoque no Dashboard
 
 # O que muda: Botões de alerta/perigo, como 'Excluir Produto', 'Sair' e destaque de estoque zerado
@@ -60,7 +60,7 @@ WARNING = "#d97706"            # Amarelo / Laranja queimado
 WARNING_LIGHT = "#fef3c7"      # Fundo suave de alerta
 
 # O que muda: Cor de indicadores informativos (ex: total de usuários no Dashboard)
-INFO = "#0284c7"               # Azul Céu
+INFO = "#000000"               # Azul Céu
 INFO_LIGHT = "#f0f9ff"         # Fundo suave informativo
 
 
@@ -68,7 +68,7 @@ INFO_LIGHT = "#f0f9ff"         # Fundo suave informativo
 # 4. CORES DE TEXTOS (TIPOGRAFIA)
 # -----------------------------------------------------------------------------
 # O que muda: Títulos principais de alta prioridade (ex: 'Cadastro de Produtos', 'SISVENDAS')
-TEXT_DARK = "#0f172a"          # Preto azulado (quase preto, muito legível)
+TEXT_DARK = "#000000"          # Preto azulado (quase preto, muito legível)
 
 # O que muda: Textos normais de leitura e valores digitados dentro dos campos de texto
 TEXT_BODY = "#334155"          # Cinza escuro (suave para leitura prolongada)
@@ -84,10 +84,10 @@ TEXT_LIGHT = "#f8fafc"         # Branco gelo
 # 5. CONTORNOS E LINHAS DIVISÓRIAS (BORDAS)
 # -----------------------------------------------------------------------------
 # O que muda: A borda cinza ao redor das caixas de digitação (Inputs de texto)
-BORDER_COLOR = "#cbd5e1"
+BORDER_COLOR = "#ffffff"
 
 # O que muda: As linhas finas de divisão interna dos cartões e divisores horizontais
-BORDER_LIGHT = "#e2e8f0"
+BORDER_LIGHT = "#ffffff"
 
 
 # -----------------------------------------------------------------------------
